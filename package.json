@@ -53,6 +53,7 @@
   },
   "dependencies": {
     "intersection-observer": "^0.5.1",
+    "stickyfilljs": "^2.1.0",
     "ua-parser-js": "^0.7.19"
   }
 }
