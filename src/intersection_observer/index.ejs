@@ -1,0 +1,38 @@
+<%
+  // Twitterカードなどの情報
+  const metaSetting = {
+    tw_card:'summary_large_image',
+    tw_site:'@hoge',
+    tw_creator:'@hoge',
+    tw_title:'titleが入ります',
+    tw_description:'descriptionが入ります',
+    tw_image:'image_urlが入ります'
+  }
+%>
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+<%- include('../_assets/ejs/_meta') %>
+<link rel="stylesheet" href="./css/style.css">
+<title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="containerTop">
+      <p class="text">下にスクロールしてね↓↓↓</p>
+    </div>
+    <div class="containerMain">
+      <video class="video" id="video1" src="movie/neco03_720.mp4" muted controls playsinline></video>
+    </div>
+    <div class="containerBottom">
+      <p class="text">動画を抜けると再生が止まるよ↑↑↑</p>
+    </div>
+
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>
